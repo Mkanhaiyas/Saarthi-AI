@@ -1,4 +1,4 @@
-# <img width="2500" height="2500" alt="image" src="https://github.com/user-attachments/assets/330eb469-80cb-4dcb-ad93-63b996bc7319" />
+# <img width="50" height="50" alt="image" src="https://github.com/user-attachments/assets/330eb469-80cb-4dcb-ad93-63b996bc7319" />
  Saarthi AI — GitaBot
 
 **Saarthi AI (GitaBot)** is a spiritual AI companion that shares timeless wisdom from the **Bhagavad Gita** through a modern chat interface.
@@ -224,3 +224,4 @@ MIT — feel free to fork and build upon it.
 * **Bhagavad Gita** translations and transliterations
 * **Sentence‑Transformers** and **FAISS** for semantic search
 * **Google Gemini** for generation
+
