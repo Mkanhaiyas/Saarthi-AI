@@ -1,5 +1,4 @@
-# <img width="50" height="50" alt="image" src="https://github.com/user-attachments/assets/330eb469-80cb-4dcb-ad93-63b996bc7319" />
- Saarthi AI — GitaBot
+# 🪔 Saarthi AI — GitaBot
 
 **Saarthi AI (GitaBot)** is a spiritual AI companion that shares timeless wisdom from the **Bhagavad Gita** through a modern chat interface.
 It bridges ancient philosophy and modern AI so anyone can seek guidance on duty, purpose, decision‑making, and inner peace.
@@ -129,6 +128,19 @@ saarthi-ai/
 * `GET /api/chat/{chat_id}` — fetch message history
 * `POST /api/chat/{chat_id}/message` — add a message
 * `POST /api/chat/{chat_id}/message/stream` — stream AI response (SSE)
+
+---
+
+## 📸 Screenshots
+
+### Home Page
+<img width="1920" height="1031" alt="Screenshot (155)" src="https://github.com/user-attachments/assets/b1e23113-3561-4607-a4c4-505c4a34c285" />
+
+### Chat Interface
+<img width="1920" height="1029" alt="Screenshot (157)" src="https://github.com/user-attachments/assets/dce477c1-cf5e-4b38-acd7-03c7cf8647ba" />
+
+### Chat Menu
+<img width="1920" height="1029" alt="Screenshot (156)" src="https://github.com/user-attachments/assets/8f75cd20-4d17-4412-ad68-453afa07a08f" />
 
 ---
 
