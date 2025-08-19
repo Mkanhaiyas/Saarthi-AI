@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import "tailwindcss";
+
+/* Custom Scrollbar */
+.scrollbar::-webkit-scrollbar {
+  width: 7px;
+  z-index: 10px;
+}
+.scrollbar::-webkit-scrollbar-track {
+  margin: 4px;
+}
+.scrollbar::-webkit-scrollbar-thumb {
+  background-color: #d1d5db;
+  border-radius: 8px;
+  border: 2px solid transparent;
+}
+
+.scrollbar-red::-webkit-scrollbar-thumb {
+  background-color: #ef233c;
+  border-radius: 8px;
+  border: 2px solid transparent;
+}
+
+/* Custom scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+/* Font */
+.outfit {
+  font-family: "Outfit";
+}
+
+/* Blinking caret */
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+.blinking-caret {
+  animation: blink 0.5s step-end infinite;
+}
+
+.prose pre {
+  @apply bg-gray-900 text-green-200 p-4 rounded-lg overflow-x-auto text-sm my-2;
+}
+
+.prose code {
+  @apply bg-gray-200 text-[#ef233c] px-1 rounded text-sm;
+}
+
+.prose pre code {
+  @apply bg-transparent text-inherit px-0;
+}
